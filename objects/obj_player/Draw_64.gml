@@ -19,9 +19,8 @@ for (var angle = look-(0.5*fov);angle <= look+(0.5*fov); angle+=(fov/cam_width))
 	ds_list_destroy(colls);
 	i++;
 }
+
 */
-
-
 
 
 
