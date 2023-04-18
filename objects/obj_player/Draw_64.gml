@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-/*
+
 var i = 0;
+draw_set_alpha(0.95);
 for (var angle = look-(0.5*fov);angle <= look+(0.5*fov); angle+=(fov/cam_width)) {
 	
 	draw_set_color(c_lime);
@@ -14,13 +15,14 @@ for (var angle = look-(0.5*fov);angle <= look+(0.5*fov); angle+=(fov/cam_width))
 //	draw_line(x/room_width*cam_width,y/room_height*cam_height,(x+lengthdir_x(length, angle))/room_width*cam_width,(y+lengthdir_y(length,angle))/room_height*cam_height);
 	
 	draw_set_color(make_color_hsv(0,255,clamp(255-length,0,255)));
-	draw_line(cam_width-i,0,cam_width-i,cam_height-(length/255*120));
+//	draw_line(cam_width-i,(0.5*cam_height)+(4000/length),cam_width-i,(0.5*cam_height)-(4000/length));
 	
 	ds_list_destroy(colls);
 	i++;
 }
 
-*/
+
+
 
 
 
