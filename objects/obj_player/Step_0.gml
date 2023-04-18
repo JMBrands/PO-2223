@@ -7,7 +7,16 @@ key_up = keyboard_check(ord("W"));
 key_down = keyboard_check(ord("S"));
 key_q = keyboard_check(ord("Q"));
 key_e = keyboard_check(ord("E"));
+key_f = keyboard_check_pressed(ord("F"));
 
+arrow_up = keyboard_check(vk_up);
+arrow_down = keyboard_check(vk_down);
+
+global.fov = clamp(global.fov+arrow_up-arrow_down,1,720);
+
+if key_f {
+	correcting = !correcting;
+}
 look += (key_q-key_e)*looksp;
 var move_y = (key_right-key_left);
 var move_x = -(key_down-key_up);

@@ -1,28 +1,28 @@
 /// @description Insert description here
 // You can write your code in this editor
-cells = ds_grid_create(cells_x, cells_y);
+global.cells = ds_grid_create(global.cells_x, global.cells_y);
 X = 0;
 Y = 0;
-instance_create_layer((cells_x-1)*80+40, (cells_x-1)*80+40, "walls", obj_next);
-for (X = 0; X <= cells_x; X++) {
-	for (Y = 0; Y <= cells_y; Y++) {
+instance_create_layer((global.cells_x-1)*80+40, (global.cells_x-1)*80+40, "walls", obj_next);
+for (X = 0; X <= global.cells_x; X++) {
+	for (Y = 0; Y <= global.cells_y; Y++) {
 		instance_create_layer(X*80,Y*80,"walls",obj_wall);
-		if (X != cells_x) {
+		if (X != global.cells_x) {
 			with (instance_create_layer(X*80+40,Y*80,"walls",obj_wall)) {
 				image_xscale = 4;
 			}
 		}
-		if (Y != cells_y) {
+		if (Y != global.cells_y) {
 			with (instance_create_layer(X*80,Y*80+40,"walls",obj_wall)) {
 				image_yscale = 4;
 			}
 		}
 	}
 }
-for (X = 0; X < cells_x; X++) {
-	for (Y = 0; Y < cells_y; Y++) {
+for (X = 0; X < global.cells_x; X++) {
+	for (Y = 0; Y < global.cells_y; Y++) {
 		with (instance_create_layer(X*80+40,Y*80+40,"player",obj_cell)) {
-			ds_grid_add(other.cells,other.X,other.Y,id);
+			ds_grid_add(global.cells,other.X,other.Y,id);
 			X = other.X;
 			Y = other.Y;
 		}
@@ -54,7 +54,7 @@ function remove_walls(a, b) {
 }
 
 stack = [];
-current = ds_grid_get(cells, 0,0);
+current = ds_grid_get(global.cells, 0,0);
 i = 0
 do {
 	current.visited = true;
