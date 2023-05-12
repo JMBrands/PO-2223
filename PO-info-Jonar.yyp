@@ -48,6 +48,7 @@
     {"id":{"name":"obj_next","path":"objects/obj_next/obj_next.yy",},},
     {"id":{"name":"obj_cell","path":"objects/obj_cell/obj_cell.yy",},},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},
+    {"id":{"name":"spr_brick","path":"sprites/spr_brick/spr_brick.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

@@ -14,5 +14,6 @@
     {"name":"obj_next","order":4,"path":"objects/obj_next/obj_next.yy",},
     {"name":"obj_cell","order":3,"path":"objects/obj_cell/obj_cell.yy",},
     {"name":"spr_collision","order":4,"path":"sprites/spr_collision/spr_collision.yy",},
+    {"name":"spr_brick","order":7,"path":"sprites/spr_brick/spr_brick.yy",},
   ],
 }
