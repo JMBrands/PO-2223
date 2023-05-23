@@ -4,4 +4,5 @@
 mx = display_mouse_get_x();
 my = display_mouse_get_y();
 draw_set_color(make_color_rgb(240,240,255));
-draw_set_font()
+draw_set_font(fnt_menu);
+draw_text(300,100,"PLAY");

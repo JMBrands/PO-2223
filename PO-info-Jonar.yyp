@@ -45,7 +45,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"id":{"name":"fnt_font1","path":"fonts/fnt_font1/fnt_font1.yy",},},
+    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"spr_ray","path":"sprites/spr_ray/spr_ray.yy",},},
     {"id":{"name":"obj_maze","path":"objects/obj_maze/obj_maze.yy",},},
     {"id":{"name":"obj_next","path":"objects/obj_next/obj_next.yy",},},
