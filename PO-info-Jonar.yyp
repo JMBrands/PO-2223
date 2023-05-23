@@ -26,7 +26,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"brick.png","CopyToMask":3035426170322551022,"filePath":"datafiles",},
+  ],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
@@ -43,6 +45,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"fnt_font1","path":"fonts/fnt_font1/fnt_font1.yy",},},
     {"id":{"name":"spr_ray","path":"sprites/spr_ray/spr_ray.yy",},},
     {"id":{"name":"obj_maze","path":"objects/obj_maze/obj_maze.yy",},},
     {"id":{"name":"obj_next","path":"objects/obj_next/obj_next.yy",},},
