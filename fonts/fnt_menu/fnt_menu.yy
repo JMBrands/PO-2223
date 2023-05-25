@@ -111,7 +111,7 @@
     "9647": {"character":9647,"h":35,"offset":6,"shift":31,"w":19,"x":50,"y":187,},
   },
   "hinting": 0,
-  "includeTTF": false,
+  "includeTTF": true,
   "interpreter": 0,
   "italic": false,
   "kerningPairs": [],
@@ -134,5 +134,5 @@
     "name": "Default",
     "path": "texturegroups/Default",
   },
-  "TTFName": "",
+  "TTFName": "${project_dir}\\fonts\\fnt_menu\\Compression.ttf",
 }

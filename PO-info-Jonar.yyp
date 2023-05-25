@@ -36,6 +36,7 @@
   },
   "resources": [
     {"id":{"name":"spr_cell","path":"sprites/spr_cell/spr_cell.yy",},},
+    {"id":{"name":"fnt_lines","path":"fonts/fnt_lines/fnt_lines.yy",},},
     {"id":{"name":"spr_collision_next","path":"sprites/spr_collision_next/spr_collision_next.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
