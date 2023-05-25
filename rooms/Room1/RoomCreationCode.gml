@@ -44,4 +44,3 @@ b = 13;
 for (var i = 0;i<3;i++) {
 	ds_grid_set(global.tx1,a,b+i,[43,6,128]);
 }
-show_debug_message(global.tx1);
