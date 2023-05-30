@@ -2,6 +2,7 @@
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
     {"name":"spr_cell","order":2,"path":"sprites/spr_cell/spr_cell.yy",},
+    {"name":"shd_2","order":1,"path":"shaders/shd_2/shd_2.yy",},
     {"name":"fnt_lines","order":1,"path":"fonts/fnt_lines/fnt_lines.yy",},
     {"name":"spr_collision_next","order":5,"path":"sprites/spr_collision_next/spr_collision_next.yy",},
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},

@@ -11,4 +11,6 @@ rayx = 0;
 rayy = 0;
 next = false
 spd = 8;
+global.mousecapture = true;
+raycasting = true;
 if (global.mousecapture) window_set_cursor(cr_none); else window_set_cursor(cr_default);

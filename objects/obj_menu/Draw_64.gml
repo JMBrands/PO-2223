@@ -12,6 +12,11 @@ draw_text(303,244,"QUIT");
 draw_line_width(270,125,450,125,3);
 draw_line_width(245,180,475,180,3);
 draw_line_width(270,235,450,235,3);
+var mo_play = mouse_hitbox(300,79,420,115);
+var mo_options = mouse_hitbox(252,134,468,170);
+var mo_credits = mouse_hitbox(252,189,468,225);
+var mo_quit = mouse_hitbox(300,244,420,280);
+if (mo_play) sel = 0; else if (mo_options) sel = 1; else if (mo_credits) sel = 2; else if (mo_quit) sel = 3;
 switch sel {
 	case start.START:
 		draw_line_width(285,96,295,96,3);

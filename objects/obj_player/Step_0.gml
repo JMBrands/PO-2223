@@ -21,6 +21,15 @@ if key_esc {
 	global.mousecapture = !global.mousecapture;
 	display_mouse_set(683,384);
 	if (global.mousecapture) window_set_cursor(cr_none); else window_set_cursor(cr_default);
+	if instance_exists(obj_menu) {
+		with (obj_menu) {
+			instance_destroy();
+		}
+		raycasting = true;
+	} else {
+		instance_create_layer(x,y,layer,obj_menu);
+		raycasting = false;
+	}
 }
 
 if key_f {
