@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+key_z = keyboard_check(ord("Z"));
+key_x = keyboard_check(ord("X"));
+spd = max(spd+key_z-key_x,1);
 if raycasting {
 	key_left = keyboard_check(ord("A"));
 	key_right = keyboard_check(ord("D"));
@@ -8,14 +12,8 @@ if raycasting {
 	key_q = keyboard_check(ord("Q"));
 	key_e = keyboard_check(ord("E"));
 	key_f = keyboard_check_pressed(ord("F"));
-	key_z = keyboard_check(ord("Z"));
-	key_x = keyboard_check(ord("X"));
 	key_esc = keyboard_check_pressed(vk_escape);
 
-	arrow_up = keyboard_check(vk_up);
-	arrow_down = keyboard_check(vk_down);
-	spd = max(spd+key_z-key_x,1);
-	global.fov = max(global.fov+arrow_up-arrow_down,1);
 
 	if key_esc {
 		global.mousecapture = !global.mousecapture;
@@ -44,7 +42,7 @@ if raycasting {
 		display_mouse_set(683,384);
 		dmx = 683 - mx;
 		dmy = 384 - my;
-		look += round(dmx/3);
+		look += round(dmx/3*global.msens);
 	}
 	dir = point_direction(0,0,move_x,move_y)+look;
 	hsp = lengthdir_x(abs(move_x), dir)*walksp + lengthdir_x(abs(move_y), dir)*walksp;

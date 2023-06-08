@@ -1,2 +1,22 @@
-show_debug_message("shader compiled:")
-show_debug_message(shader_is_compiled(shd_noise));
+
+enum start {
+	START = 0,
+	OPTIONS = 1,
+	CREDITS = 2,
+	QUIT = 3
+}
+
+enum options {
+	VOLTOG=0,
+	VOLSLD=1,
+	MSENS=2,
+	FOVSLD=3,
+	
+}
+
+global.cells_x = 3;
+global.cells_y = 3;
+global.fov = 70;
+global.msens = 1;
+global.gain = 1;
+global.mute = 0;

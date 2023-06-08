@@ -23,7 +23,8 @@ if key_enter {
 			}
 			break;
 		case start.OPTIONS:
-//			room_goto();
+			instance_create_layer(x,y,"menu",obj_settings);
+			instance_destroy();
 			break;
 		case start.CREDITS:
 //			room_goto();
