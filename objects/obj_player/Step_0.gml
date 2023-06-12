@@ -41,7 +41,7 @@ if raycasting {
 		my = display_mouse_get_y();
 		display_mouse_set(683,384);
 		dmx = 683 - mx;
-		dmy = 384 - my;
+//		dmy = 384 - my;
 		look += round(dmx/3*global.msens);
 	}
 	dir = point_direction(0,0,move_x,move_y)+look;

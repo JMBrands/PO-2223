@@ -25,7 +25,10 @@ switch (sel) {
 		global.gain = clamp(global.gain + (key_right-key_left)/100,0.01,1);
 		break;
 	case options.VOLTOG:
-		if (key_enter) global.mute = !global.mute;
+		if (key_enter) {
+			obj_sound.gainold = -1;
+			global.mute = !global.mute;
+		}
 		break;
 	default:
 		break;

@@ -5,6 +5,7 @@ var i = 0;
 //	shader_set(shd_noise);
 //	shader_set_uniform_f(shader_get_uniform(shd_noise,"seed"),random_range(0,255));
 draw_set_alpha((1+(2*raycasting))/3);
+shader_reset();
 var rel_a = -(0.5*global.fov);
 for (var angle = look-(0.5*global.fov);angle < look+(0.5*global.fov); angle+=(global.fov/cam_width)*4) {
 	if (correcting) var correction = abs(dcos(rel_a)); else var correction = 1;

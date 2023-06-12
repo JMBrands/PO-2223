@@ -9,8 +9,8 @@ enum start {
 enum options {
 	VOLTOG=0,
 	VOLSLD=1,
-	MSENS=2,
-	FOVSLD=3,
+	MSENS=3,
+	FOVSLD=2,
 	
 }
 
