@@ -27,7 +27,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
   "IncludedFiles": [
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"brick.png","CopyToMask":3035426170322551022,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"maintheme.wav","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "isEcma": false,
@@ -63,7 +62,6 @@
     {"id":{"name":"scr_mouse_hitbox","path":"scripts/scr_mouse_hitbox/scr_mouse_hitbox.yy",},},
     {"id":{"name":"obj_sound","path":"objects/obj_sound/obj_sound.yy",},},
     {"id":{"name":"spr_grain","path":"sprites/spr_grain/spr_grain.yy",},},
-    {"id":{"name":"spr_brick","path":"sprites/spr_brick/spr_brick.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

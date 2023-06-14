@@ -22,6 +22,5 @@
     {"name":"spr_collision","order":4,"path":"sprites/spr_collision/spr_collision.yy",},
     {"name":"obj_sound","order":9,"path":"objects/obj_sound/obj_sound.yy",},
     {"name":"spr_grain","order":8,"path":"sprites/spr_grain/spr_grain.yy",},
-    {"name":"spr_brick","order":7,"path":"sprites/spr_brick/spr_brick.yy",},
   ],
 }

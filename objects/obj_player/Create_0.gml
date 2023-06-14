@@ -3,8 +3,8 @@
 dir = 0;
 look = 0;
 correcting = true;
-cam_width = window_get_width();
-cam_height= window_get_height();
+cam_width = 720;
+cam_height= 360;
 ray = 0;
 length = 0;
 rayx = 0;
